@@ -23,7 +23,7 @@ const ListingByCategoryPage = () => {
           .catch(err => {
             console.log(`Error ${err}`);
           })    
-      }, []) 
+      }, [category,setProducts]) 
       
 
     return (

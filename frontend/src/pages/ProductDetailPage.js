@@ -29,7 +29,7 @@ const ProductDetailPage = () => {
                 console.log(`Error ${err}`);
               })
         
-          }, []) 
+          }, [id]) 
           
 
 

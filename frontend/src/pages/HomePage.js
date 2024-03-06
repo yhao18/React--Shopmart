@@ -34,7 +34,7 @@ const HomePage = (props) => {
           .catch(err => {
             console.log(`Error ${err}`);
           })   
-      }, [])
+      }, [setProducts, props])
 
     
 

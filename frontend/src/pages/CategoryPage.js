@@ -17,13 +17,13 @@ const CategoryPage = (props) => {
           .catch(err => {
             console.log(`Error ${err}`);
           })   
-      }, [])
+      }, [props])
 
 
     return (
         <div className="backGround">
             <Header/>
-            <main >
+            <main>
           
                 <CategoriesListing categories={props.categories}/>
                 <br></br>

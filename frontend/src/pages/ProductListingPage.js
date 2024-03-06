@@ -23,7 +23,7 @@ const ProductListingPage = () => {
           .catch(err => {
             console.log(`Error ${err}`);
           })    
-      }, []) 
+      }, [setProducts]) 
       
       const productsPerPage =12;
       const indexOfLastProduct= currentPage * productsPerPage;
